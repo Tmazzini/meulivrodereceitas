@@ -1,0 +1,29 @@
+{
+  "name": "Meu Livro de Receitas",
+  "short_name": "Minhas Receitas",
+  "description": "Sua biblioteca particular de receitas encontradas por aí.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f5ec",
+  "theme_color": "#344b3c",
+  "icons": [
+    {
+      "src": "./brand-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "share_target": {
+    "action": "./",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
